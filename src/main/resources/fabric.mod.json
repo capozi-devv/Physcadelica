@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "physcagen",
+  "version": "${version}",
+  "name": "Physcagen",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/physcagen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.capozi.physcagen.physcagen.PhyscagenDataGenerator"
+    ],
+    "client": [
+      "net.capozi.physcagen.physcagen.PhyscagenClient"
+    ],
+    "main": [
+      "net.capozi.physcagen.physcagen.Physcagen"
+    ]
+  },
+  "mixins": [
+    "physcagen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
