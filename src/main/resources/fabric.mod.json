@@ -4,20 +4,20 @@
   "version": "${version}",
   "name": "Physcagen",
   "description": "",
-  "authors": [],
+  "authors": [ "Capozi" ],
   "contact": {},
   "license": "MIT",
   "icon": "assets/physcagen/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "net.capozi.physcagen.physcagen.PhyscagenDataGenerator"
+      "net.capozi.physcagen.physcagen.PhyscadelicaDataGenerator"
     ],
     "client": [
-      "net.capozi.physcagen.physcagen.PhyscagenClient"
+      "net.capozi.physcagen.physcagen.PhyscadelicaClient"
     ],
     "main": [
-      "net.capozi.physcagen.physcagen.Physcagen"
+      "net.capozi.physcagen.physcagen.Physcadelica"
     ]
   },
   "mixins": [
