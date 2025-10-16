@@ -3,6 +3,7 @@ package net.capozi.physcagen.physcagen.foundation;
 import net.capozi.physcagen.physcagen.Physcadelica;
 import net.capozi.physcagen.physcagen.common.item.PurifiedPhtalgiaItem;
 import net.capozi.physcagen.physcagen.common.item.RawPhtalgiaItem;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -18,4 +19,5 @@ public class ItemInit {
     public static final Item IMPURE_PHTALGIA = registerItem("impure_phtalgia", new Item(new Item.Settings()));
     public static final Item PURIFIED_PHTALGIA = registerItem("purified_phtalgia", new PurifiedPhtalgiaItem(new Item.Settings().maxCount(16).fireproof().food(FoodComponentInit.PHTALGIA)));
     public static final Item CONCOCTION = registerItem("concoction", new Item(new Item.Settings().maxCount(8)));
+    public static final Item PHTALGIA_BUCKET = registerItem("phtalgia_bucket", new BucketItem(Physcadelica.STILL_PHTALGIA, new Item.Settings().maxCount(1).recipeRemainder(net.minecraft.item.Items.BUCKET).fireproof()));
 }
