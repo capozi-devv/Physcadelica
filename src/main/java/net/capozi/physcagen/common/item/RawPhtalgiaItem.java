@@ -1,4 +1,4 @@
-package net.capozi.physcagen.physcagen.common.item;
+package net.capozi.physcagen.common.item;
 
 import net.minecraft.item.Item;
 

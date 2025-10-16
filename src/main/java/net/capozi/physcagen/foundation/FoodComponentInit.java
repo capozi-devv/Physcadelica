@@ -1,4 +1,4 @@
-package net.capozi.physcagen.physcagen.foundation;
+package net.capozi.physcagen.foundation;
 
 import net.minecraft.item.FoodComponent;
 

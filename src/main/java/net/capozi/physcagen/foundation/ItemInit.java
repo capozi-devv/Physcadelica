@@ -1,8 +1,8 @@
-package net.capozi.physcagen.physcagen.foundation;
+package net.capozi.physcagen.foundation;
 
-import net.capozi.physcagen.physcagen.Physcadelica;
-import net.capozi.physcagen.physcagen.common.item.PurifiedPhtalgiaItem;
-import net.capozi.physcagen.physcagen.common.item.RawPhtalgiaItem;
+import net.capozi.physcagen.Physcadelica;
+import net.capozi.physcagen.common.item.PurifiedPhtalgiaItem;
+import net.capozi.physcagen.common.item.RawPhtalgiaItem;
 import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;

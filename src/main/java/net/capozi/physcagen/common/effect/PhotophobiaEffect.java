@@ -1,4 +1,4 @@
-package net.capozi.physcagen.physcagen.common.effect;
+package net.capozi.physcagen.common.effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
@@ -12,7 +12,6 @@ public class PhotophobiaEffect extends StatusEffect {
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
         return true;
     }
-
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         super.applyUpdateEffect(entity, amplifier);

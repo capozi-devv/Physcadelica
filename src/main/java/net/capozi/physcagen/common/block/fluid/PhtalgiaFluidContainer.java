@@ -1,4 +1,4 @@
-package net.capozi.physcagen.physcagen.common.block.fluid;
+package net.capozi.physcagen.common.block.fluid;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.fluid.FlowableFluid;

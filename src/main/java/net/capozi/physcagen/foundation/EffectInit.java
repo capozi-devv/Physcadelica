@@ -1,7 +1,7 @@
-package net.capozi.physcagen.physcagen.foundation;
+package net.capozi.physcagen.foundation;
 
-import net.capozi.physcagen.physcagen.Physcadelica;
-import net.capozi.physcagen.physcagen.common.effect.PhotophobiaEffect;
+import net.capozi.physcagen.Physcadelica;
+import net.capozi.physcagen.common.effect.PhotophobiaEffect;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.registry.Registries;

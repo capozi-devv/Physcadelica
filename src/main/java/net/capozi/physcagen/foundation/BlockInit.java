@@ -1,6 +1,6 @@
-package net.capozi.physcagen.physcagen.foundation;
+package net.capozi.physcagen.foundation;
 
-import net.capozi.physcagen.physcagen.Physcadelica;
+import net.capozi.physcagen.Physcadelica;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;

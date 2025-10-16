@@ -1,8 +1,8 @@
-package net.capozi.physcagen.physcagen.common.block.fluid;
+package net.capozi.physcagen.common.block.fluid;
 
-import net.capozi.physcagen.physcagen.Physcadelica;
-import net.capozi.physcagen.physcagen.foundation.BlockInit;
-import net.capozi.physcagen.physcagen.foundation.ItemInit;
+import net.capozi.physcagen.Physcadelica;
+import net.capozi.physcagen.foundation.BlockInit;
+import net.capozi.physcagen.foundation.ItemInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;

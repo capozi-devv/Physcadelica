@@ -1,9 +1,9 @@
-package net.capozi.physcagen.physcagen;
+package net.capozi.physcagen;
 
-import net.capozi.physcagen.physcagen.common.block.fluid.PhtalgiaFluid;
-import net.capozi.physcagen.physcagen.foundation.BlockInit;
-import net.capozi.physcagen.physcagen.foundation.EffectInit;
-import net.capozi.physcagen.physcagen.foundation.ItemInit;
+import net.capozi.physcagen.common.block.fluid.PhtalgiaFluid;
+import net.capozi.physcagen.foundation.BlockInit;
+import net.capozi.physcagen.foundation.EffectInit;
+import net.capozi.physcagen.foundation.ItemInit;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.registry.Registries;

@@ -11,13 +11,13 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "net.capozi.physcagen.physcagen.PhyscadelicaDataGenerator"
+      "net.capozi.physcagen.PhyscadelicaDataGenerator"
     ],
     "client": [
-      "net.capozi.physcagen.physcagen.PhyscadelicaClient"
+      "net.capozi.physcagen.PhyscadelicaClient"
     ],
     "main": [
-      "net.capozi.physcagen.physcagen.Physcadelica"
+      "net.capozi.physcagen.Physcadelica"
     ]
   },
   "mixins": [
